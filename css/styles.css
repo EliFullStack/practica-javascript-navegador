@@ -1,0 +1,50 @@
+body {
+    background: #330a2c;
+    background: -webkit-linear-gradient(to right, #b87bae, #330a2c);  
+    background: linear-gradient(to right, #b87bae, #330a2c); 
+}
+
+header {
+    margin: 30px 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.contenido {
+    padding:20px;
+}
+
+.contenido-principal {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.budget p {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.budget p span {
+    font-weight: normal;
+}
+
+#concepts {
+    margin-bottom: 30px;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h2 {
+    color:#b87bae;
+}
+
