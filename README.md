@@ -11,5 +11,5 @@ We need to develop a website that helps us to manage our income and expenses, in
 1. If we close the website and log in again, we have to retrieve all the expenses and income we have entered, as well as the total savings.
 
 ## Demo
-[You can click here to test the app]](https://https://my-expenses-control.netlify.app/)
+[You can click here to test the app](https://my-expenses-control.netlify.app/)
 
