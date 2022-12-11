@@ -18,7 +18,7 @@
             <div class="flex justify-between">
 
                 <div class="flex flex-col">
-                    <div class="contenido-primario">
+                    <div class="contenido primario">
                         <h2 class="text-center font-thin text-2xl mb-5">Añadir nueva transacción</h2>
                             <form id="formulario" action="#">
                                 <div class="flex flex-col form-group mb-6">
@@ -39,7 +39,7 @@
                                     ease-in-out
                                     m-0
                                     focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                    id="transaction" placeholder="Añade concepto">
+                                    id="concept" placeholder="Añade concepto">
                                 </div>
                                 <div class="flex flex-col form-group mb-6">
                                     <label class="form-label inline-block mb-0.5 text-gray-700 text-xl" for="amount">Cantidad</label>
@@ -85,7 +85,7 @@
                 </div><!--flex-flex-col-->
 
                 <div class="flex flex-col">
-                    <div class="contenido-secundario">
+                    <div class="contenido secundario">
                         <h2 class="text-center font-thin text-2xl">Historial</h2>
                         <div id="concepts" class="flex justify-center">
                             <ul class="bg-white w-96 text-gray-700 text-xl"></ul>
@@ -93,14 +93,14 @@
                         <div id="budget" class="budget">
                             <div class="text-xl font-normal mt-5 mb-5">
                                 <p class="bg-green-100 rounded-lg py-5 px-6 mb-4 text-green-700 mb-3 uppercase">
-                                    Ingreso: <span id="income"></span></p>
+                                    Ingreso: <span id="income"></span> €</p>
                             </div>
                             <div class="text-xl font-normal mt-5 mb-5">
                                 <p class="bg-red-100 rounded-lg py-5 px-6 mb-4 text-red-700 mb-3 uppercase">
-                                    Gasto: <span id="output"></span></p>
+                                    Gasto: <span id="output"></span> €</p>
                             </div>
                             <div class="text-gray-700 text-2xl font-normal uppercase">
-                                <p>Tu Ahorro: <span id="balance"></span></p>
+                                <p>Tu Ahorro: <span id="balance"></span> €</p>
                             </div>
                         </div> <!--budget-->
 
